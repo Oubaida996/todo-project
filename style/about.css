@@ -26,10 +26,7 @@ text-decoration: none;
 .logo {
   grid-column: 1/3;
   grid-row: auto;
-  background-image: url("http://taylorehat.com/images/todo-cloud-hero.png");
-  background-size: 68px 47px;
-  height: 50px;
-  width: 50px;
+
 }
 .home {
   grid-column: 6/8;
@@ -48,12 +45,13 @@ text-decoration: none;
     "img img img img bio bio bio bio bio "
     "img img img img bio bio bio bio bio "
     ;
-    grid-auto-rows: minmax(50px ,auto);
+   /* grid-auto-rows: minmax(50px ,auto);*/
     /*grid-template-rows: repeat(2 ,1fr);*/
    /* grid-template-columns: repeat(9,1fr);*/
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     justify-items: center;
     align-items: center;
+
 
 
 }
@@ -61,7 +59,7 @@ text-decoration: none;
     grid-area: img;
     border-radius: 50%;
     background-color: wheat;
-    width: 150px;
+    /*width: 150px;*/
     margin-left: 5px;
 
 }

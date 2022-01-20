@@ -1,158 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style/about.css" />
+
+
     <title>ToDo</title>
-    <style>
-      .header {
-        overflow: hidden;
-        background-color: #652cb3;
-        padding: 20px 10px;
-      }
+</head>
 
-      .header a {
-        float: left;
-        color: black;
-        text-align: center;
-        padding: 12px;
-        text-decoration: none;
-        font-size: 18px;
-        line-height: 25px;
-        border-radius: 4px;
-        background-color: #414bb2;
-        color: white;
-        margin-right: 10px;
-        font-weight: bold;
-        color: white;
-      }
-
-      .header a.logo {
-        font-size: 25px;
-        font-weight: bold;
-      }
-      .header-right {
-        float: right;
-      }
-
-      .infoCard {
-        background-color: #414bb2;
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 50px;
-        padding: 15px;
-      }
-
-      img {
-        float: left;
-        background-color: white;
-        height: 50%;
-        width: 15%;
-
-        border-radius: 50%;
-
-        margin-right: 30px;
-      }
-      span {
-        color: whitesmoke;
-      }
-      p {
-        color: lightgray;
-      }
-
-      .contactInfo {
-        background-color: #414bb2;
-        margin-top: 30px;
-        height:600px;
-        padding: 20px;
-      }
-
-      div input {
-        border-radius: 20px;
-        color: white;
-        height: 60px;
-        width: 400px;
-        border: none;
-        font-size: 30px;
-        text-align: center;
-        color: black;
-        margin: 10px;
-      }
-
-      h1 , h3 {
-          color: white;
-      }
-textarea{
-    background-color: white;
-    border-radius: 10px;
-    border: none;
-    margin: 10px;
-}
-      .footer {
-        overflow: hidden;
-        background-color: #652cb3;
-        padding: 20px 10px;
-        color: white;
-        margin-top: 20px;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- //===========================Start Header-->
-
-    <div class="header">
-      <a href="#default" class="logo">ToDo</a>
-      <div class="header-right">
-        <a class="active" href="./index.html">Home</a>
-        <a href="./about.html">About Us</a>
-      </div>
-    </div>
-    <!-- //===========================End Header-->
-
-    <!-- //===========================Start Section Info-->
-
-    <div class="infoCard">
-      <div class="img">
-        <img src="https://avatars.githubusercontent.com/u/79963515?s=40&v=4" />
-      </div>
-      <span><h1>Obieda Akilan</h1></span>
-      <div class="info">
-        <div class="desc">
-          <p>
-            I am an Electrical Eng. <br />
-            I have passion towards my job <br />
-            because I love what I do .
-          </p>
+<body>
+    <header></header>
+    <main></main>
+    <footer></footer>
+    <div class="container">
+        <div class="header">
+            <a href="" class="logo">
+                <img src="http://taylorehat.com/images/todo-cloud-hero.png" alt="" width="50px" height="50px">
+            </a>
+            <a href="index.html" class="home">home</a>
+            <a href="about.html" class="box box5">about </a>
         </div>
-      </div>
+        <div class="info">
+            <img src="https://avatars.githubusercontent.com/u/79963515?s=40&v=4" class="imgProfile" alt="">
+            <h1 class="name">Obieda Akilan</h1>
+            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolores quae temporibus, dolorum reiciendis consequuntur fugit voluptatibus error dolor nisi, quos eveniet, obcaecati soluta molestias minus cumque. In sit rerum consectetur nam
+                architecto doloribus nesciunt dolores sequi minus cupiditate officia est, velit, magnam aut illum aperiam molestias suscipit mollitia vero nulla nobis. Officiis error veniam, consequatur dicta nisi expedita provident.</p>
+        </div>
     </div>
-
-    <!-- //===========================End Section Info-->
-
-    <!-- //===========================Start Section Contact Info-->
 
     <div class="contactInfo">
         <h1>Contact Us</h1>
-        <h3>Please  fill  this form in a decent manner</h3>
-      <input type="text" placeholder="Full Name" /><br>
-      <input type="text" placeholder="Emai@email.com" />
-      <br>
-      <h3>Message</h3>
-      <textarea rows="10" cols="100"  >
-         
-        </textarea>
+        <h3>Please fill this form in a decent manner</h3>
+        <input type="text" placeholder="Full Name" /><br>
+        <input type="text" placeholder="Emai@email.com" />
+        <br>
+        <h3>Message</h3>
+        <textarea rows="10" cols="100">
+       
+      </textarea>
 
     </div>
-
-    <!-- //===========================End Section Contatc Info-->
-
-    <!-- //===========================Start Footer-->
 
     <div class="footer">
-      <h2>Copyright 2022 &copy;</h2>
+        <h2>Copyright 2022 &copy;</h2>
     </div>
-    <!-- //===========================End Footer-->
-  </body>
+</body>
+
 </html>

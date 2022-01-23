@@ -1,91 +1,79 @@
 .container {
-  display: grid;
-  grid-auto-rows: minmax(50px, auto);
-  grid-template-areas: 
-  "header header header header header"
-  "info info info info info"
-  ;
-  grid-gap: 20px;
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas: "header header header header header" "info info info info info";
+    grid-gap: 20px;
 }
 
 .header {
-  display: grid;
-  background-color: #652cb3;
-  grid-area: header;
-  grid-template-columns: repeat(9, 1fr);
-  grid-gap: 5px 5px;
-  justify-items: center;
-  align-items: center;
-  color: white;
+    display: grid;
+    background-color: #652cb3;
+    grid-area: header;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 5px 5px;
+    justify-items: center;
+    align-items: center;
+    color: white;
 }
-.header a{
-color: white;
-text-decoration: none;
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
 
 .logo {
-  grid-column: 1/3;
-  grid-row: auto;
-
+    grid-column: 1/3;
+    grid-row: auto;
 }
+
 .home {
-  grid-column: 6/8;
-}
-.about {
-  grid-column: 8/10;
+    grid-column: 6/8;
 }
 
-.info{
+.about {
+    grid-column: 8/10;
+}
+
+.info {
     display: grid;
     background-color: #424baf;
     grid-area: info;
-    grid-template-areas: 
-    "img img img img name name name name name "
-    "img img img img name name name name name "
-    "img img img img bio bio bio bio bio "
-    "img img img img bio bio bio bio bio "
-    ;
-   /* grid-auto-rows: minmax(50px ,auto);*/
+    grid-template-areas: "img img img img name name name name name " "img img img img name name name name name " "img img img img bio bio bio bio bio " "img img img img bio bio bio bio bio ";
+    /* grid-auto-rows: minmax(50px ,auto);*/
     /*grid-template-rows: repeat(2 ,1fr);*/
-   /* grid-template-columns: repeat(9,1fr);*/
+    /* grid-template-columns: repeat(9,1fr);*/
     /*border-radius: 10px;*/
     justify-items: center;
     align-items: center;
-
-
-
 }
-.imgProfile{
+
+.imgProfile {
     grid-area: img;
     border-radius: 50%;
     background-color: wheat;
     /*width: 150px;*/
     margin-left: 5px;
-
 }
-.name{
- grid-area: name;
- color: white;
 
+.name {
+    grid-area: name;
+    color: white;
 }
-.info .bio{
+
+.info .bio {
     grid-area: bio;
     color: white;
     margin-left: 10px;
 }
 
-
-
-
-
 .contactInfo {
     background-color: #414bb2;
     margin-top: 30px;
-    height:600px;
+    height: 600px;
     padding: 20px;
-  }
-  
-  div input {
+}
+
+div input {
     border-radius: 20px;
     color: white;
     height: 60px;
@@ -95,27 +83,28 @@ text-decoration: none;
     text-align: center;
     color: black;
     margin: 10px;
-  }
-  
-  h1 , h3 {
-      color: white;
-  }
-  textarea{
-  background-color: white;
-  border-radius: 10px;
-  border: none;
-  margin: 10px;
-  }
-  .footer {
+}
+
+h1,
+h3 {
+    color: white;
+}
+
+textarea {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+.footer {
     overflow: hidden;
     background-color: #652cb3;
     padding: 20px 10px;
     color: white;
     margin-top: 20px;
     text-align: center;
-  }
-
-
+}
 
 
 /*
